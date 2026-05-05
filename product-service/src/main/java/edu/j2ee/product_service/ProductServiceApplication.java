@@ -6,7 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.Bean;
 
+import org.springframework.cache.annotation.EnableCaching;
+
 @SpringBootApplication
+@EnableCaching
 //Spring Cloud annotation used to make a
 //microservice register with a service discovery server
 //and discover other services
