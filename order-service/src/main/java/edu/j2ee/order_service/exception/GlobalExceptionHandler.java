@@ -1,4 +1,4 @@
-package edu.j2ee.order_service;
+package edu.j2ee.order_service.exception;
 
 import java.util.HashMap;
 import java.util.Map;

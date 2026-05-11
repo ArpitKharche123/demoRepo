@@ -1,9 +1,11 @@
-package edu.j2ee.order_service;
+package edu.j2ee.order_service.service;
 
 import org.springframework.stereotype.Service;
 
+import edu.j2ee.order_service.entity.Order;
 import edu.j2ee.order_service.inter_service_communication.ProductClient;
 import edu.j2ee.order_service.inter_service_communication.ProductResponseDto;
+import edu.j2ee.order_service.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
 
 @Service

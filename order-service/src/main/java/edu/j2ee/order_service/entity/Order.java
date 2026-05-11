@@ -1,4 +1,4 @@
-package edu.j2ee.order_service;
+package edu.j2ee.order_service.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
