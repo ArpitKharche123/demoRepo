@@ -23,17 +23,4 @@ spring:
 eureka:
     client:
         service-url:
-            defaultZone: ${EUREKA_CLIENT_SERVICEURL_DEFAULTZONE:http://localhost:8761/eureka}
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: prometheus,health,info,metrics
-  endpoint:
-    prometheus:
-      access: UNRESTRICTED
-  prometheus:
-    metrics:
-      export:
-        enabled: true
+            defaultZone: http://localhost:8761/eureka

@@ -9,16 +9,3 @@ eureka:
   client:
    register-with-eureka: false
    fetch-registry: false
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: prometheus,health,info,metrics
-  endpoint:
-    prometheus:
-      access: UNRESTRICTED
-  prometheus:
-    metrics:
-      export:
-        enabled: true
